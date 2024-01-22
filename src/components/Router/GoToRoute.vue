@@ -21,6 +21,17 @@ const testArrayParam2 = () => {
     params: {arrayparam: ['a', 'b', 'c']},
   })
 };
+const optionalParam = () => {
+  router.push({
+    name: 'optional',
+    params: {optional: 1},
+  })
+};
+const optionalNoParam = () => {
+  router.push({
+    name: 'optional',
+  })
+};
 </script>
 
 <template>
@@ -28,7 +39,8 @@ const testArrayParam2 = () => {
   <hr>
   <button type="button" @click="move">go</button>
   <button type="button" @click="testArrayParam">array param</button>
-  <button type="button" @click="testArrayParam2">array param2</button>
+  <button type="button" @click="optionalParam">optional1</button>
+  <button type="button" @click="optionalNoParam">optional 없음</button>
 </template>
 
 <style scoped>

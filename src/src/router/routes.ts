@@ -10,6 +10,7 @@ const routes = [
   {path: '/go', component: () => import('@/components/Router/GoToRoute.vue'), sensitive: true},
   {name: 'array param', path: '/route/:arrayparam(.*)*', component: () => import('@/components/Router/ArrayParam.vue')},
   {name: 'array param2', path: '/route/:arrayparam*', component: () => import('@/components/Router/ArrayParam2.vue')},
+  {name: 'optional', path: '/route/optional:optional(\\d+)?', component: () => import('@/components/Router/OptionalParam.vue')},
   {name: 'not found', path: '/:pathMatch(.*)*', component: () => import('@/components/Router/NotFound.vue')},
 ];
 
