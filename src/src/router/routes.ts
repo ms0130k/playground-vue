@@ -12,6 +12,7 @@ const routes = [
   {name: 'array param', path: '/route/:arrayparam(.*)*', component: () => import('@/components/router/ArrayParam.vue')},
   {name: 'array param2', path: '/route/:arrayparam*', component: () => import('@/components/router/ArrayParam2.vue')},
   {name: 'optional', path: '/route/optional:optional(\\d+)?', component: () => import('@/components/router/OptionalParam.vue')},
+  {path: '/attrs', component: () => import('@/components/attrsprops/AttrsParent.vue')},
 
 
 

@@ -1,5 +1,11 @@
 <script setup lang="ts">
 import Child from '@/components/slot/Child.vue';
+import {onBeforeMount, onMounted, useAttrs, useSlots} from 'vue';
+
+const slots = useSlots();
+const attrs = useAttrs();
+console.log(slots);
+console.log(attrs);
 </script>
 
 <template>
