@@ -2,7 +2,13 @@
 </script>
 
 <template>
-  hello world
+  <h1>Hello App!</h1>
+  <p>
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/welcome">About</RouterLink>
+    <RouterLink to="/go">Go</RouterLink>
+  </p>
+  <router-view></router-view>
 </template>
 
 <style scoped>
