@@ -12,6 +12,8 @@ const vfm = createVfm();
 const router = createRouter({
   history: createWebHashHistory(),
   routes: routes,
+  strict: true,
+  sensitive: true,
 });
 
 app
