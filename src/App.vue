@@ -9,6 +9,7 @@
     <RouterLink to="/go">Go</RouterLink>
     <RouterLink to="/slot">Slot test</RouterLink>
     <RouterLink to="/attrs">attrs</RouterLink>
+    <RouterLink to="/vfor">vfor</RouterLink>
   </p>
   <router-view></router-view>
 </template>
