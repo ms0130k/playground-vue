@@ -12,9 +12,8 @@ const username = computed(() => {
 
 <template>
   <div>This is my home.</div>
-  <div>params.to :: {{route.params.to}}</div>
-  <div>params.username :: {{username}}</div>
-
+<!--  <div>params.to :: {{route.params.to}}</div>-->
+<!--  <div>params.username :: {{username}}</div>-->
 </template>
 
 <style scoped>

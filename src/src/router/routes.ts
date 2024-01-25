@@ -15,6 +15,10 @@ const routes = [
   {path: '/attrs', component: () => import('@/components/attrsprops/AttrsParent.vue')},
   {path: '/vfor', component: () => import('@/components/basic/Vfor.vue')},
 
+  {path: '/provide', component: () => import('@/components/provide/Provider.vue')},
+  {path: '/publish', component: () => import('@/components/mitt/Birdge.vue')},
+  {path: '/mitt-example', component: () => import('@/components/mitt/example/Parent.vue')},
+  {path: '/mitt-example-wrap', component: () => import('@/components/mitt/example-wrap/Parent.vue')},
 
 
   {path: '/slot', component: () => import('@/components/slot/Parent.vue')},
